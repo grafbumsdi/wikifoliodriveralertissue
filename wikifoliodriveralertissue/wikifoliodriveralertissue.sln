@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wikifoliodriveralertissue", "wikifoliodriveralertissue\wikifoliodriveralertissue.csproj", "{82BF08A1-AAC8-442D-9A41-693A5F886C8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wikifoliodriveralertissue.chromedriver74", "wikifoliodriveralertissue.chromedriver74\wikifoliodriveralertissue.chromedriver74.csproj", "{7194574F-3B30-487D-92C3-23FE8F07CF67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82BF08A1-AAC8-442D-9A41-693A5F886C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BF08A1-AAC8-442D-9A41-693A5F886C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BF08A1-AAC8-442D-9A41-693A5F886C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BF08A1-AAC8-442D-9A41-693A5F886C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7194574F-3B30-487D-92C3-23FE8F07CF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7194574F-3B30-487D-92C3-23FE8F07CF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7194574F-3B30-487D-92C3-23FE8F07CF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7194574F-3B30-487D-92C3-23FE8F07CF67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4B566C6-9584-4CF6-BE3C-3CAAB837671E}
+	EndGlobalSection
+EndGlobal
