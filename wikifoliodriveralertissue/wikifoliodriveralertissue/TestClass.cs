@@ -44,7 +44,11 @@ namespace wikifoliodriveralertissue
         [SetUp]
         public void Setup()
         {
-            this.driver = new ChromeDriver();
+            var chromeDriverService = ChromeDriverService.CreateDefaultService();
+            chromeDriverService.EnableVerboseLogging = true;
+            chromeDriverService.LogPath = "c:\\tmp\\chromedriver_75.log";
+            var options = new ChromeOptions();
+            this.driver = new ChromeDriver(chromeDriverService, options);
         }
 
         [TearDown]
